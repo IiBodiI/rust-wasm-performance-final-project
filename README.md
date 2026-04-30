@@ -1,5 +1,8 @@
 # Rust WebAssembly Performance Lab
 
+**Student:** Abdulrahman Jalal Muhammed Abdulhamid Ali  
+**Student Number:** 23080410313
+
 BMU1208 Web Tabanlı Programlama final project: a browser-only React + TypeScript application that compares JavaScript and Rust compiled to WebAssembly on CPU-intensive tasks.
 
 The project does not fake benchmark results. Each demo runs real JavaScript and WASM code in the current browser, measures with `performance.now()`, and explains that results vary by device, browser, input size, and thermal state.
@@ -130,4 +133,3 @@ Record the landing page, dashboard, each demo, benchmark export, and worker resp
 - Add larger benchmark presets and CSV export.
 - Add Playwright end-to-end smoke tests.
 - Add image histogram and SIMD-focused kernels.
-
