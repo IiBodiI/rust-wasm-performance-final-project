@@ -1,0 +1,15 @@
+[
+  {
+    "id": "image-grayscale",
+    "name": "Image grayscale",
+    "jsTime": 18.42,
+    "wasmTime": 6.31,
+    "speedup": 2.92,
+    "inputSize": "720x480 RGBA",
+    "iterations": 3,
+    "browser": "Example Browser",
+    "date": "2026-04-25T00:00:00.000Z",
+    "notes": "example only - run the app for real results"
+  }
+]
+

@@ -1,0 +1,17 @@
+{
+  "name": "rust-wasm-performance-final-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BMU1208 final project demonstrating Rust compiled to WebAssembly for browser performance demos.",
+  "packageManager": "pnpm@10.10.0",
+  "scripts": {
+    "dev": "node scripts/wasm-build.mjs && corepack pnpm --filter ./web dev",
+    "build": "node scripts/wasm-build.mjs && corepack pnpm --filter ./web build",
+    "test": "node scripts/wasm-test.mjs && corepack pnpm --filter ./web test:ci",
+    "lint": "node scripts/wasm-build.mjs && corepack pnpm --filter ./web lint",
+    "wasm:build": "node scripts/wasm-build.mjs",
+    "wasm:test": "node scripts/wasm-test.mjs",
+    "clean": "cargo clean && corepack pnpm --filter ./web clean"
+  },
+  "devDependencies": {}
+}

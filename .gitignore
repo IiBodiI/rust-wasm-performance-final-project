@@ -1,0 +1,13 @@
+target/
+node_modules/
+dist/
+.turbo/
+.vite/
+*.log
+coverage/
+web/src/wasm/wasm_core/
+scripts/fill_project_report_docx.py
+!.gitkeep
+.env
+.DS_Store
+Thumbs.db

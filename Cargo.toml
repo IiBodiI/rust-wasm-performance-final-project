@@ -1,0 +1,4 @@
+[workspace]
+members = ["crates/wasm-core"]
+resolver = "3"
+
